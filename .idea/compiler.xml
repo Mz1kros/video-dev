@@ -6,14 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mapper" />
-        <module name="common" />
         <module name="mini-api" />
-        <module name="pojo" />
+        <module name="common" />
+        <module name="mapper" />
         <module name="service" />
-        <module name="generator" />
+        <module name="pojo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="generator" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
