@@ -1,5 +1,9 @@
 package com.zhang.pojo;
 
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 @Table(name = "users_like_videos")
 public class UsersLikeVideos {
     @Id

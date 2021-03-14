@@ -1,5 +1,8 @@
 package com.zhang.pojo;
 
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.util.Date;
 
 @Table(name = "users_report")

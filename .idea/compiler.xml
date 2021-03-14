@@ -9,8 +9,8 @@
         <module name="mini-api" />
         <module name="common" />
         <module name="mapper" />
-        <module name="service" />
         <module name="pojo" />
+        <module name="service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">

@@ -1,7 +1,7 @@
 package mapper;
 
 import com.zhang.utils.MyMapper;
-import pojo.UsersLikeVideos;
+import com.zhang.pojo.UsersLikeVideos;
 
 public interface UsersLikeVideosMapper extends MyMapper<UsersLikeVideos> {
 }

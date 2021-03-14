@@ -1,8 +1,8 @@
 package com.zhang.utils;
 
 import java.security.MessageDigest;
-
 import org.apache.commons.codec.binary.Base64;
+
 
 public class MD5Utils {
 
@@ -17,7 +17,7 @@ public class MD5Utils {
 
 	public static void main(String[] args) {
 		try {
-			String md5 = getMD5Str("imooc");
+			String md5 = getMD5Str("sunset");
 			System.out.println(md5);
 		} catch (Exception e) {
 			e.printStackTrace();
