@@ -2,9 +2,8 @@ package com.zhang.service;
 
 import com.zhang.pojo.Users;
 
-import mapper.UsersMapper;
+import com.zhang.mapper.UsersMapper;
 import org.n3r.idworker.Sid;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
